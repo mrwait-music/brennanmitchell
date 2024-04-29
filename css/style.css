@@ -2,19 +2,25 @@
     --font-family: 'Helvetica', sans-serif;
 }
 
+.bgimg-1 {
+    background-image: url('../assets/pictures/website_background_photo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .container.bg1 {
+    background-color: black; /* Set the background color of the container to black */
+    padding: 1rem; /* Add padding for spacing */
+}
+.container {
     background-color: black; /* Set the background color of the container to black */
     padding: 1rem; /* Add padding for spacing */
 }
 
 .icon {
     width: 24.2%;
-    padding: 0.6rem;
-    background-color: black; /* Set the background color of the icons to black */
-    filter: brightness(0) invert(0.6);
-    transition: filter 0.3s; /* Add smooth transition effect */
-}
-
-.icon:hover {
-    filter: brightness(1) invert(0);
-}
+    padding: .6rem;
+    filter: brightness(0) invert(0.6); }
+    .icon:hover {
+    filter: brightness(1) invert(0); }
