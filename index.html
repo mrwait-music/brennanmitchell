@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,64 +12,210 @@
 </head>
 
 <!-- Element to hide on extra small screens -->
+
 <body>
     <nav class="d-none d-sm-block">
         <!-- Navigation content -->
     </nav>
 
 
-<!-- Home -->
-<div class="bgimg bgimg-1 d-flex justify-content-center align-items-center" id="home">
-    <div class="text-center">
-        <h1 class="display-4 font-weight-bold">
-            <span class="d-none d-sm-inline">Greetings, My name is</span> Brennan Mitchell
-        </h1>
-        <p class="lead">
-            <span class="d-none d-sm-inline">FULL STACK WEB DEVELOPER</span>
-        </p>
-    </div>
-</div>
-
-<!-- Work -->
-    <div class="Work d-flex justify-content-center align-items-center" id="home">
+    <!-- Home -->
+    <div class="bgimg bgimg-1 d-flex justify-content-center align-items-center" id="home">
         <div class="text-center">
+            <h1 class="display-4 font-weight-bold">
+                <span class="d-none d-sm-inline">Greetings, My name is</span> Brennan Mitchell
+            </h1>
             <p class="lead">
-                <span class="d-none d-sm-inline">My Apps</span>
+                <span class="d-none d-sm-inline">FULL STACK WEB DEVELOPER</span>
             </p>
         </div>
     </div>
 
-<!-- Languages -->
-<div class="w3-row w3-center bg1 w3-padding-16">
-    <div class="w3-third w3-section">
-        <img class="icon" src="assets/icons/html.svg">
-        <img class="icon" src="assets/icons/css.svg">
-        <img class="icon" src="assets/icons/javascript.svg">
-        <img class="icon" src="assets/icons/jquery.svg">
+    <!-- Work -->
+    <div>
+    <div class="Work d-flex justify-content-center align-items-center" id="home">
+        <div class=" w3-container w3-padding-64" id="portfolio">
+            <div class="section bg1"></div>
+            <br>
+            <h3 class="w3-center">MY Applications</h3>
+            <p class="w3-center">
+                <em>Here are some of my latest projects.
+            </p>
+            <br>
+            <!-- Responsive Grid. Three columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+            <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/get-lost-screenshot-1.png" alt="Random Password">
+                        <h2 class="card__title">Random Password Generator</h2>
+                        <p class="card__text">Generate passwords as simle or as complex as you like! Choose from a variety of
+                            parameters and sequences.</p>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class="">Demo</a>
+                        <a class="card__btn" href="https://github.com/GetLost-Project/GetLost-Project" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/natours-screenshot-1.png" alt="Plan your Day!">
+                        <h2 class="card__title">Daily Planner</h2>
+                        <p class="card__text">Plan your day! Whether it's your day off and you have chores to do, or you're making
+                            profession schedule for your long day at work. This app is everything you need!
+                        </p>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class="">Demo</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank" class=""><i
+                                class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/brushworks-screenshot-1.png"
+                            alt="What's the weather?">
+                        <h2 class="card__title">Weather Grabber</h2>
+                        <p class="card__text">This app uses API calls to locate the weather for wherever your travels take you.</p>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class="">Demo</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/crypto-tracker-screenshot-1.png"
+                            alt="Crypto Tracker">
+                        <h2 class="card__title">Command Line Readme Generator</h2>
+                        <p class="card__text">React app that allows user to track crypto currency prices and set a price
+                            watch to recieve an alert.</p>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class="">Demo</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/article-tracker-screenshot-1.png"
+                            alt="New York Times Saver">
+                        <h2 class="card__title">Note Taker</h2>
+                        <p class="card__text">React app to scrape NYT articles and allow a user to save and leave notes
+                            on ones that interest them.</p>
+                        <a class="card__btn" href="https://github.com/mrwait-music"
+                            target="_blank" class="">Demo</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/verify-screenshot-1.png" alt="Verify Project">
+                        <h2 class="card__title">SVG Generator</h2>
+                        <p class="card__text">Proof of concept app for tracking user's health and preventing spread of
+                            transmittable diseases.</p>
+                        <a class="card__btn" href="" class="" target="_blank" disabled>Not Currently Hosted</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/verify-screenshot-1.png" alt="Verify Project">
+                        <h2 class="card__title">?New Note Taker?</h2>
+                        <p class="card__text">Proof of concept app for tracking user's health and preventing spread of
+                            transmittable diseases.</p>
+                        <a class="card__btn" href="" class="" target="_blank" disabled>Not Currently Hosted</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/verify-screenshot-1.png" alt="Verify Project">
+                        <h2 class="card__title">Employee Tracker</h2>
+                        <p class="card__text">Proof of concept app for tracking user's health and preventing spread of
+                            transmittable diseases.</p>
+                        <a class="card__btn" href="" class="" target="_blank" disabled>Not Currently Hosted</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/verify-screenshot-1.png" alt="Verify Project">
+                        <h2 class="card__title">E-Commerce Database</h2>
+                        <p class="card__text">Proof of concept app for tracking user's health and preventing spread of
+                            transmittable diseases.</p>
+                        <a class="card__btn" href="" class="" target="_blank" disabled>Not Currently Hosted</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/verify-screenshot-1.png" alt="Verify Project">
+                        <h2 class="card__title">Text editor PWA</h2>
+                        <p class="card__text">Proof of concept app for tracking user's health and preventing spread of
+                            transmittable diseases.</p>
+                        <a class="card__btn" href="" class="" target="_blank" disabled>Not Currently Hosted</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="w3-col m4">
+                    <div class="card">
+                        <img class="card__img" src="assets/pictures/verify-screenshot-1.png" alt="Verify Project">
+                        <h2 class="card__title">MY-FACE-GRAM</h2>
+                        <p class="card__text">Proof of concept app for tracking user's health and preventing spread of
+                            transmittable diseases.</p>
+                        <a class="card__btn" href="" class="" target="_blank" disabled>Not Currently Hosted</a>
+                        <a class="card__btn" href="https://github.com/mrwait-music" target="_blank"
+                            class=""><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+
+    <!-- Languages -->
+    <div class="w3-row w3-center bg1 w3-padding-16">
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/html.svg">
+            <img class="icon" src="assets/icons/css.svg">
+            <img class="icon" src="assets/icons/javascript.svg">
+            <img class="icon" src="assets/icons/jquery.svg">
+        </div>
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/react.svg">
+            <img class="icon" src="assets/icons/node.svg">
+            <img class="icon" src="assets/icons/express.svg">
+        </div>
+        <div class="w3-third w3-section">
+            <img class="icon" src="assets/icons/handlebars.svg">
+            <img class="icon" src="assets/icons/mongodb.svg">
+            <img class="icon" src="assets/icons/mysql.svg">
+            <img class="icon" src="assets/icons/github.svg">
+        </div>
     </div>
-    <div class="w3-third w3-section">
-        <img class="icon" src="assets/icons/react.svg">
-        <img class="icon" src="assets/icons/node.svg">
-        <img class="icon" src="assets/icons/express.svg">
-    </div>
-    <div class="w3-third w3-section">
-        <img class="icon" src="assets/icons/handlebars.svg">
-        <img class="icon" src="assets/icons/mongodb.svg">
-        <img class="icon" src="assets/icons/mysql.svg">
-        <img class="icon" src="assets/icons/github.svg">
-    </div>
-</div>
-    
-<!-- About  -->
+
+    <!-- About  -->
     <div class="About d-flex justify-content-center align-items-center" id="home">
         <div class="text-center">
             <p class="lead">
                 <span class="d-none d-sm-inline">About Me</span>
             </p>
-            <p>Welcome! I'm Brennan Mitchell, a multifaceted professional with a diverse background and a passion for innovation. Armed with a University of Minnesota Coding Bootcamp certificate and a Bachelor of Fine Arts in Sound Design from SCAD, my journey has been marked by a relentless pursuit of learning and growth. With over a decade of hands-on experience as a manager and leader, I've honed my skills in navigating complex challenges and fostering team success. Beyond the boardroom, I've donned various hats, from welding to carpentry, painting to heavy equipment operation and mechanics assistance. This rich tapestry of experiences has instilled in me a deep appreciation for versatility and a commitment to excellence in every endeavor. Join me as we embark on an exciting journey of creativity, collaboration, and continuous evolution.</p>
+            <p>Welcome! My name is Brennan Mitchell, a multifaceted professional with a diverse background and a passion
+                for innovation. Armed with a University of Minnesota Coding Bootcamp certificate and a Bachelor of Fine
+                Arts in Sound Design from the Savannah College of Art and Design, my journey has been marked by a
+                relentless pursuit of learning and growth. With over a decade of hands-on experience as a manager and
+                leader, I've honed my skills in navigating complex challenges and fostering team success. Beyond the
+                boardroom, I've donned various hats, from welding to carpentry, painting to heavy equipment operation
+                and mechanics assistance. This rich tapestry of experiences has instilled in me a deep appreciation for
+                versatility and a commitment to excellence in every endeavor. Join me as we embark on an exciting
+                journey of creativity, collaboration, and continuous evolution.</p>
         </div>
     </div>
-<!-- Contact -->
+    <!-- Contact -->
     <div class="Contact d-flex justify-content-center align-items-center" id="home">
         <div class="text-center">
             <p class="lead">
@@ -77,24 +224,33 @@
         </div>
     </div>
 
-<footer>
-    <div class="container">
-        <div class="row text-center">
-            <div class="col">
-                <a href="https://github.com/mrwait-music" target="_blank" class="text-dark">
-                    <i class="fab fa-github fa-3x w3-hover-opacity"></i>
-                </a>
-            </div>
-            <div class="col">
-                <a href="https://www.linkedin.com/in/brennan-mitchell-2a41ab245/" target="_blank" class="text-primary">
-                    <i class="fab fa-linkedin fa-3x w3-hover-opacity"></i>
-                </a>
+    <footer>
+        <div class="footer">
+            <div class="row text-center">
+                <div class="col">
+                    <a href="https://github.com/mrwait-music" target="_blank" class="text-dark">
+                        <i class="fab fa-github fa-3x w3-hover-opacity"></i>
+                    </a>
+                </div>
+                <div class="col">
+                    <p>Brennan Mitchell &copy
+                    </p>
+                    <a href="" brennanmitchell1192@gmail.com>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.linkedin.com/in/brennan-mitchell-2a41ab245/" target="_blank"
+                        class="text-primary">
+                        <i class="fab fa-linkedin fa-3x w3-hover-opacity"></i>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
-<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-</body> 
+</body>
+
 </html>

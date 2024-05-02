@@ -7,20 +7,91 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 250px;
 }
 
 .container.bg1 {
-    background-color: black; /* Set the background color of the container to black */
-    padding: 1rem; /* Add padding for spacing */
+    background-color: black;
+    /* Set the background color of the container to black */
+    padding: 1rem;
+    /* Add padding for spacing */
 }
+
 .container {
-    background-color: black; /* Set the background color of the container to black */
-    padding: 1rem; /* Add padding for spacing */
+    background-color: black;
+    /* Set the background color of the container to black */
+    padding: 1rem;
+    /* Add padding for spacing */
 }
 
 .icon {
     width: 24.2%;
     padding: .6rem;
-    filter: brightness(0) invert(0.6); }
-    .icon:hover {
-    filter: brightness(1) invert(0); }
+    filter: brightness(0) invert(0.6);
+}
+
+.icon:hover {
+    filter: brightness(1) invert(0);
+}
+
+.card {
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding-bottom: 2em;
+    --mouseX: 0;
+    --mouseY: 0;
+    --padding: 1em;
+    background: transparent;
+    position: relative;
+    display: block;
+    position: relative;
+    top: calc(var(--padding) * -1);
+    bottom: calc(var(--padding) * -1);
+    left: calc(var(--padding) * -1);
+    right: calc(var(--padding) * -1);
+    content: " ";
+    background: #272727;
+    transform: perspective(700px) rotateX(calc(var(--mouseY) * -1deg)) rotateY(calc(var(--mouseX) * 1deg));
+    border-radius: 6px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+.card__title {
+    margin: 0 auto;
+    color: #EAF2E3;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 1em auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card__text {
+    margin: 2em 5%;
+    color: rgba(234, 242, 227, 0.8);
+}
+
+.card__btn {
+    padding: 0.7em 2em;
+    background: radial-gradient(#dc6c11, rgba(220, 108, 17, 0.3));
+    color: #EAF2E3;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1em auto 0;
+    border-radius: 2px;
+}
+
+.card__btn:hover {
+    opacity: 0.8;
+}
+
+.card__btn>i {
+    transform: translateY(20%);
+}
